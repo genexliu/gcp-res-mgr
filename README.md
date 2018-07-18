@@ -4,7 +4,7 @@
 
 1. Install go packages.
 
-```
+   ```
 glide install
 ```
 
@@ -12,7 +12,7 @@ glide install
 
 1. Create a service account. Download its JSON key, and then export the following environment variable.
 
-```
+   ```
 export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key
 ```
 
@@ -20,6 +20,6 @@ export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key
 
 1. Run!
 
-```
+   ```
 go run main/main.go -folder_id=<your_folder_ID>
 ```
