@@ -1,0 +1,64 @@
+hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+updated: 2018-07-19T01:33:10.971430725+08:00
+imports:
+- name: a
+  version: ""
+  repo: https://a
+- name: cloud.google.com/go
+  version: a55dfc0b29d5e9df654f451579bb012d9417b14b
+  repo: https://cloud.google.com/go
+- name: github.com/chzyer/readline
+  version: 2972be24d48e78746da79ba8e24e8b488c9880de
+- name: github.com/golang/glog
+  version: 23def4e6c14b4da8ac2ed8007337bc5eb5007998
+- name: github.com/golang/mock
+  version: 22bbf0ddf08105dfa364d0a2fa619dfa71014af5
+- name: github.com/golang/protobuf
+  version: 14aad3d5ea4c323bcd7a2137e735da24a76e814c
+- name: github.com/google/btree
+  version: e89373fe6b4a7413d7acd6da1725b83ef713e6e4
+- name: github.com/google/go-cmp
+  version: 5411ab924f9ffa6566244a9e504bc347edacffd3
+  repo: https://github.com/google/go-cmp
+- name: github.com/google/pprof
+  version: 3e1e08e68eaed0faefa67fe1c1e10e004cec2c9a
+  repo: https://github.com/google/pprof
+- name: github.com/googleapis/gax-go
+  version: 1ef592c90f479e3ab30c6c2312e20e13881b7ea6
+- name: github.com/ianlancetaylor/demangle
+  version: fcd258a6f0b45dc345a407ee5568cf9a4d24a0ae
+  repo: https://github.com/ianlancetaylor/demangle
+- name: github.com/nbutton23/zxcvbn-go
+  version: 780cc39d5c78bcc7a47926818c450bb6749b89af
+- name: golang.org/x/crypto
+  version: a2144134853fc9a27a7b1e3eb4f19f1a76df13c9
+- name: golang.org/x/net
+  version: d0887baf81f4598189d4e12a37c6da86f0bba4d0
+  subpackages:
+  - /context
+- name: golang.org/x/oauth2
+  version: ef147856a6ddbb60760db74283d2424e98c87bff
+  subpackages:
+  - /google
+- name: golang.org/x/sync
+  version: 1d60e4601c6fd243af51cc01ddf169918a5407ca
+  repo: https://golang.org/x/sync
+- name: golang.org/x/sys
+  version: ac767d655b305d4e9612f5f6e33120b9176c4ad4
+- name: golang.org/x/text
+  version: 0605a8320aceb4207a5fb3521281e17ec2075476
+- name: golang.org/x/time
+  version: fbb02b2291d28baffd63558aa44b4b56f178d650
+- name: golang.org/x/tools
+  version: 32950ab3be12acf6d472893021373669979907ab
+- name: google.golang.org/api
+  version: 0025a57598c017c1b9f7bc916c4fb8ae77315f9c
+  subpackages:
+  - /compute/v1
+- name: google.golang.org/genproto
+  version: 2731d4fa720b67f9fe38e9051a2a9b38e4609260
+  repo: https://google.golang.org/genproto
+- name: google.golang.org/grpc
+  version: b534d2d20e596ca053e3070dc1745432d0cc91a6
+  repo: https://google.golang.org/grpc
+devImports: []
